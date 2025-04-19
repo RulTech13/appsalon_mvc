@@ -1,0 +1,23 @@
+.seccion {
+
+    padding: 5rem 0;
+
+    &:nth-of-type(2),
+    &:nth-of-type(3){
+        display: none;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    &.mostrar {
+        display: block;
+    }
+    
+    &.ocultar {
+        display: none;
+    }
+}
+
+
